@@ -1,6 +1,6 @@
 [extension]
 id = "dcl-lexer"
-version = "0.1.0"
+version = "0.1.1"
 api_version = 1
 name = "AutoCAD DCL Lexer"
 description = "Syntax highlighting for AutoCAD DCL files."
