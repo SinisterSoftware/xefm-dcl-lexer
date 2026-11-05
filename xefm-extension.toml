@@ -1,0 +1,14 @@
+[extension]
+id = "dcl-lexer"
+version = "0.1.0"
+api_version = 1
+name = "AutoCAD DCL Lexer"
+description = "Syntax highlighting for AutoCAD DCL files."
+min_xefm = "1.10.0"
+updates = "github:SinisterSoftware/xefm-dcl-lexer"
+
+[contributes.lexers]
+"*.dcl" = "dcl_lexer.logic:DclLexer"
+
+[requires]
+host_packages = ["pygments"]
